@@ -1,0 +1,104 @@
+/* PC */
+@media (max-width:1024px) {
+  }
+
+/* MOBILE AND IPAD */
+
+@media (max-width:1023px) {
+    .place-body .buy-ticket {
+        padding: 13px 18px;
+    }
+    .from-submit {
+        padding: 13px 20px;
+    }
+
+    .from-col {
+        padding: 12px;
+    }
+
+    .call-list a {
+        padding: 0px 8px;
+    }
+
+    .contaction .from-to {
+        padding: 8px 0px;
+    }
+}
+
+/* IPAD */
+
+@media (min-width:740px) and (max-width:1023px) {
+    .col.col-haft.col-items-full.contect-infor p {
+        padding: 8px 0px;
+    }
+    .call-list {
+        font-size: 48px;
+    }
+
+    .from-to a {
+        font-size: 20px !important;
+    }
+
+    .from-to {
+    font-size: 20px !important;
+    }
+    
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+
+
+    #nav {
+        display: block;
+    }
+
+
+
+    #nav > li {
+        display: block;
+        right: 0;
+    }
+
+    #header .mobile-menu-ion {
+    display: block;
+    }
+
+
+
+    #header .font-nav {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+
+
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 6px 41px;
+    }
+    
+
+    .col-items-full {
+        width: 100% !important;
+    }
+
+    #content .header-content {
+        padding-bottom: 100px;
+    }
+
+    .from-col {
+        font-size: 16px;
+    }
+    .from-submit.col-items-full {
+        font-size: 16px;
+    }
+}
